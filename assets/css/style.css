@@ -1,0 +1,21 @@
+:root {
+    --bkg-main: #1d3557;
+    --bkg-btn: #457b9d;
+    --bkg-error: #e63946;
+    --stroke-focus: #02799d;
+    --text-white: #ffffff;
+    --text-black: #0c3440;
+    --gray: #495057;
+
+    --font: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--bkg-error);
+}
