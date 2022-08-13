@@ -18,7 +18,7 @@
 
 ## About
 
-A fully responsive BMI Calculator.
+A BMI Calculator.
 
 <!--![A BMI Calculator](./assets/img/demo.png)-->
 
