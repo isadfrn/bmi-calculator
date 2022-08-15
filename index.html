@@ -1,18 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <script src="./assets/js/main.js" type="module" defer></script>
+    <script src="./assets/js/script.js" defer></script>
     <title>BMI Calculator</title>
-</head>
-<body>
-    <div class="container">
-        
+  </head>
+  <body>
+    <div class="bmi">
+      <div class="container">
+        <div class="card">
+          <form class="bmi__form">
+            <fieldset>
+              <legend>BMI Calculator</legend>
+
+              <div class="input-wrapper">
+                <label for="weight">Weight (kg)</label>
+                <input id="weight" type="number" placeholder="60" required />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="height">Height (m)</label>
+                <input id="height" type="number" placeholder="120" required />
+              </div>
+
+              <button>
+                <span>Calculate</span>
+                <img src="./assets/img/arrow-up-right.svg" alt="An arrow pointing to right" />
+              </button>
+            </fieldset>
+          </form>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
