@@ -20,7 +20,7 @@
 
 A BMI Calculator.
 
-<!--![A BMI Calculator](./assets/img/demo.png)-->
+![A BMI Calculator](./assets/img/demo.png)
 
 ## Run
 
